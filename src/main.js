@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-
+import vHaiui from './../components/index'
+Vue.use(vHaiui)
 Vue.config.productionTip = false
 
 new Vue({

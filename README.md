@@ -1,29 +1,14 @@
 # vhai-ui
 
-## Project setup
+## 全局引入
 ```
-npm install
-```
+import vHaiui from 'vhai-ui'
+Vue.use(vHaiui)
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+ 
+## 单独引入 
 ```
-
-### Compiles and minifies for production
+import {组件名} from 'vhai-ui'
+Vue.use(组件名)
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
